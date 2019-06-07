@@ -1,0 +1,6 @@
+<div *ngIf="user">
+    <img [src]="user.data.avatar" alt="">
+    <p>first name: {{ user.data.first_name }}</p>
+    <p>last name: {{ user.data.last_name }}</p>
+    <p>email: {{ user.data.email }}</p>
+</div>
